@@ -45,3 +45,10 @@ public class GameGraphics {
         g.drawString("Game Over", (SCREEN_WIDTH - metrics.stringWidth("Game Over")) / 2, SCREEN_HEIGHT / 2);
     }
 }
+public class UserInput extends KeyAdapter {
+    char direction;
+
+    public UserInput(char direction) {
+        this.direction = direction;
+    }
+}
