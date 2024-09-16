@@ -3,6 +3,8 @@ import java.awt.Graphics;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 public class GameGraphics {
     final int SCREEN_WIDTH = 600;
