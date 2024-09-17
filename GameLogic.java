@@ -4,7 +4,7 @@ public class GameLogic {
     int bodyParts;
     int appleEaten;
     char direction;
-
+// test pull
     public GameLogic(int[] x, int[] y, int bodyParts, char direction) {
         this.x = x;
         this.y = y;
